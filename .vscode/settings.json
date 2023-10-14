@@ -1,6 +1,15 @@
 {
-     "liveServer.settings.port": 5501,
+     "liveServer.settings.port": 5503,
      "cSpell.words": [
           "Hackathon"
-     ]
+     ],
+     "files.exclude": {
+          "**/.git": true,
+          "**/.svn": true,
+          "**/.hg": true,
+          "**/CVS": true,
+          "**/.DS_Store": true,
+          "**/Thumbs.db": true,
+          "**/node_modules": false
+     }
 }

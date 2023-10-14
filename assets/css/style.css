@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #444444;
 }
 
@@ -1570,7 +1570,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form input[type=submit] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -1579,7 +1579,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form input[type=submit]:hover {
   background: #209dd8;
 }
 
@@ -1858,4 +1858,113 @@ section {
 .footer .copyrightfooter{
   margin: auto;
   text-align: center;
+}
+
+.knowitbynumber1{
+  /* display: flex; */
+  text-align: left;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+
+@media (max-width: 2400px) {
+  .knowitbynumber1 {
+      /* display: flex; */
+      text-align: left;
+      margin-left: 14rem;
+      margin-top: 2rem;
+      margin-right: 18rem;
+    }
+    .knowitbynumber2{
+      margin-left: 3rem;
+    }
+}
+@media (max-width: 1220px) {
+  .knowitbynumber1 {
+    /* display: flex; */
+    text-align: left;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 990px) {
+  .knowitbynumber1 {
+    /* display: flex; */
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 780px) {
+  .knowitbynumber1 {
+    /* display:block; */
+    /* text-align: center; */
+    /* margin-left: 14rem; */
+    /* margin-top: 2rem; */
+    margin: auto;
+    padding-left: 10rem;
+    position:absolute;
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* justify-self: center; */
+    /* margin-right: auto; */
+    /* margin-bottom: 10rem; */
+  }
+    .knowitbynumber2 {
+      /* text-align:end; */
+      /* margin-right: auto; */
+      margin: auto;
+      /* padding-right: 14rem; */
+      /* align-items: end; */
+      /* justify-items: end; */
+      /* display: block; */
+      /* justify-content: end; */
+      /* justify-self: end; */
+      /* margin-left: 2rem; */
+      /* margin-bottom: 4rem; */
+      /* display: inline; */
+      /* background-color: rgb(255, 0, 0); */
+      margin-bottom: auto;
+      /* margin-top: 2rem; */
+      padding-top: 8rem;
+      justify-items: center;
+      /* margin-right: auto; */
+      /* display: block; */
+      /* padding-right: 114rem; */
+      /* position:relative; */
+      /* text-align: center; */
+      text-align: right;
+        margin-top: 8rem;
+        /* margin-right: 2rem; */
+        margin-left: 9rem;
+        /* margin-bottom: 4rem; */
+        /* display: inline; */
+        /* background-color: rgb(255, 0, 0); */
+        /* margin-bottom: 2rem; */
+        justify-items: right;
+        padding-top: 2rem;
+    }
+}
+
+.knowitbynumber2{
+  text-align: right;
+  /* margin-top: 1rem; */
+  /* margin-right: 2rem; */
+  /* margin-left: 1rem; */
+  /* margin-bottom: 4rem; */
+  /* display: inline; */
+  /* background-color: rgb(255, 0, 0); */
+  /* margin-bottom: 2rem; */
+  justify-items:right;
+  padding-top: 2rem;
+  /* padding-right: 2rem; */
+}
+
+.knowitbynumber{
+  display: flex;
+  /* position: relative; */
 }
